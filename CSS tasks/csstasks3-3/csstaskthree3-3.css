@@ -1,0 +1,22 @@
+#n { 
+    background-color: rgb(201, 125, 150);
+}
+
+.b {    
+    float:left;
+    background-color: rgb(162, 165, 167);
+    padding: 4px ;   
+width: 15%;
+height: 15%;
+margin-right: 1%
+}
+
+#vv{
+    border-style: solid; 
+    border-left: 1px;
+    border-right: 1px;
+    width: 800px;
+    height: 40px;
+    overflow: auto;
+    padding-top: 5px; left: 1px; bottom: 5px; right: 1px;
+}

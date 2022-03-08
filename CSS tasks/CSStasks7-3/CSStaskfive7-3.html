@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+     
+
+        #gg{ 
+        
+         display: grid;
+         width: 910px;
+         height: 910px;
+         grid-template-columns: 33% 33% 33%;
+         grid-template-rows: 33% 33% 33%;
+         row-gap: 10px;
+         column-gap:10px;
+
+
+        }
+
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+        #gg{
+            grid-template-columns: 50% 50%;
+            width: 605px;
+        } 
+    }
+        @media screen and (max-width: 479px) { 
+            #gg{ 
+                width: 300px;
+                grid-template-columns:  300px;
+                grid-template-rows: repeat(8, 300px); 
+                 
+            }
+    }
+</style>
+
+</head>
+<body>
+     
+    <div id="gg">
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div> 
+        <div class="pic" > <img src="bloom.jpg" width="300px" height="300px"></div>
+
+    </div>
+</body>
+</html>

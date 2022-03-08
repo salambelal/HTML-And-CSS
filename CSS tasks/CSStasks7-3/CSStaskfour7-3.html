@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+
+    <style>
+#main{
+    height: 700px;
+    width: 1000px;
+   background-color: rgb(237, 241, 240);
+   display: grid;
+   grid-template-columns: 3 ;
+   grid-template-rows: 20% 50% 30% ;
+   gap: 10px 10px;
+
+
+}
+.black{
+    background-color: black;
+    grid-area: 1/1/1/4 ;
+}
+
+.orange{
+    background-color: orange;
+    grid-area: 2/1/3/3;
+}
+.green{
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+    grid-area: 4/1/3/4;
+}
+
+
+
+    </style>
+</head>
+
+
+<body> 
+    <div id="main">
+    <div class="black"> </div>
+    <div class="orange"> </div>
+    <div class=" green"> </div>
+    <div class="blue"> </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+#jj{
+     position: absolute;
+    background-color: rgb(2, 145, 2);
+    padding: 25%;
+}
+#bb{
+    position: absolute;
+    background-color: yellow;
+    padding: 23% 23% 23% 23% ;
+    margin: 2%; 
+}
+
+#nn {
+    position: absolute;
+    background-color: green;
+    padding: 21%;
+    margin: 4%;
+}
+
+#ll {
+    position: absolute;
+    background-color: yellow;
+    padding: 19%;
+    margin: 6%; 
+}
+#cc{
+    color: white;
+    font-size: 220%;
+    position: absolute;
+    background-color: green;
+    padding: 13% 12% 19% 12%;
+    margin: 8% ;
+   
+    
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="google chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    #father {
+        background-color: rgb(41, 39, 39);
+        height: 190px;
+        width: 50px;
+        border-radius: 5px;
+        padding-top: 7px;
+         
+       }
+      .child1{
+         background-color:gray;
+         width: 40px;
+         height: 40px;
+         border-radius: 40px;
+         margin-top: 10px;
+         margin-left: 5px;
+         animation-name: one;
+         animation-duration: 1s;
+    
+
+      }
+
+        .child2 {
+         background-color: gray;
+         width: 40px;
+         height: 40px;
+         border-radius: 40px;
+         margin-top: 15px;
+         margin-left: 5px;
+         animation-name: two;
+         animation-duration: 1s;
+         animation-delay: 2s;
+
+
+        }
+
+        .child3{
+            background-color: gray;
+         width: 40px;
+         height: 40px;
+         border-radius: 40px;
+         margin-top: 15px;
+         margin-left: 5px;
+         animation-name: three;
+        animation-duration: 3s;
+        animation-delay: 4s;
+
+
+        }
+
+        @keyframes one{
+            from{ background-color: gray;}
+            to{ background-color: red;}
+        }
+        @keyframes two{
+            from{ background-color: gray;}
+            to{ background-color: yellow;}
+        }
+        @keyframes three{
+            from{ background-color: gray;}
+            to { background-color: green;}
+
+        
+      }
+    </style>
+</head>
+<body>
+
+    <div id="father">
+    
+        <div class="child1"> </div>
+        <div class="child2"> </div>
+        <div class="child3"> </div>
+    </div>
+    
+</body>
+</html>

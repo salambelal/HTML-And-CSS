@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(235, 229, 212, 0.993);
+}
+
+#oo{
+    
+    padding-left: 8px;
+    border: 1px solid;
+    background-color: white;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.orange{
+    background-color: rgba(238, 168, 39, 0.356);
+}
+
+.yellow{
+    background-color: rgba(255, 255, 0, 0.411);
+}
+#pp{
+    
+    padding-left: 8px;
+    border: 1px solid;
+    background-color: white;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+
+#ss{
+    color: red;
+    padding-left: 8px;
+    border: 2px red dotted;
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+#kk{
+    border: 2px red dotted;
+}
